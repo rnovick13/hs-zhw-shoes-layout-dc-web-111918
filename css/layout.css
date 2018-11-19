@@ -25,3 +25,69 @@
 /* Posititoning Classes */
 
 
+.first {
+  margin-left: 2%;
+}
+
+.col-1 {
+  width: 75%;
+}
+
+.col-2 {
+  width: 32%;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+.third {
+  float: left;
+  width: 50%;
+  margin: 2%;
+}
+
+.fourth {
+  width: 50%;
+  margin: 2%;
+}
+
+.fifth {
+  float: right;
+  width: 50%;
+  margin: 2%;
+}
+
+.sixth {
+  float: left;
+  width: 30%;
+  margin: 2%;
+}
+
+.seventh {
+  width: 30%;
+  margin: 2%;
+}
+
+.eighth {
+  float: right;
+  width: 30%;
+  margin: 2%;
+}
+
+.two_col {
+  column-gap: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.three_col {
+  column-gap: 20px;
+  display: flex;
+}
+
+.foot_col {
+  column-gap: 20px;
+  display: flex;
+}
